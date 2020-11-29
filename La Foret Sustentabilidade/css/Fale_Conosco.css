@@ -1,0 +1,79 @@
+header{
+	min-height: 0px;
+	width:100%;
+	background-color:rgb(235,235,235);
+	text-align:center;
+}
+#logo{
+	padding-top:5px;
+	height:100px;
+}
+/*fim do cabecalho*/
+aside{
+	padding-left:10px;
+	padding-right:10px;
+}
+#div_separacao{
+	display:flex;
+}
+#asideDentro{
+	max-height:auto;
+	width:20%;
+	background-color:rgb(235,235,235);
+}
+#lista{
+	list-style-type:none;
+}
+#sectionDentro{
+	width:80%;
+	padding-left:8px;
+}
+
+.listaAside{
+	display:block;
+}
+.linkSection:hover{
+	background-color:transparent;
+}
+.videosSection{
+	display:flex;
+}
+iframe{
+	border:1rem solid transparent;
+}
+#hrDeCima{
+	margin-bottom:1rem;
+}
+#hrDoFooter{
+	margin-bottom:1rem;
+	margin-top:0px;
+}
+main{
+    padding-left:180px;
+    padding-right:180px;
+}
+#form_style{
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+	background-color: rgba(210,210,210,0.8);
+	border-radius: 5px;
+}
+/*comeco do rodape*/
+footer{
+	background-color:rgb(210,210,210);
+	min-height:35px;
+	padding-bottom:0.1px;
+}
+#copyright{
+	text-align:center;
+	color:rgb(30,30,30);
+	font-size:13;
+}
+#footerdown{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+/*fim do rodape*/

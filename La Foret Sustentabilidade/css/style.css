@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*comeco do cabecalho*/
+header{
+	min-height: 0px;
+	width:100%;
+	background-color:rgb(235,235,235);
+	text-align:center;
+}
+#logo{
+	padding-top:5px;
+	height:100px;
+}
+/*fim do cabecalho*/
+
+#principal{
+	color:rgb(30,30,30);
+	padding-top:10px;
+	background-color:#fff;
+	text-align:center;
+	padding-left:15%;
+	padding-right:15%;
+}
+#text{
+	text-align:center;
+	font-size: 20px;
+}
+#title{
+	text-align: center;
+}
+
+
+/*comeco do rodape*/
+footer{
+	background-color:rgb(210,210,210);
+	min-height:35px;
+	padding-bottom:0.1px;
+}
+#copyright{
+	text-align:center;
+	color:rgb(30,30,30);
+	font-size:13;
+}
+#footerdown{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+/*fim do rodape*/

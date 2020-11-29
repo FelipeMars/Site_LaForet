@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*comeco do cabecalho*/
+header{
+	min-height: 0px;
+	width:100%;
+	background-color:rgb(235,235,235);
+	text-align:center;
+}
+#logo{
+	padding-top:5px;
+	height:100px;
+}
+/*fim do cabecalho*/
+
+/*comeco da pagina principal*/
+#conteudo{
+	letter-spacing: -1px;
+	display:flex;
+	width:100%;
+}
+
+div{
+	width:100%;
+	height:auto;
+	padding-left:12%;
+	padding-right:10%;
+}
+#link{
+	text-align:justify;
+	width:75%;
+	padding:20px;
+	padding-top:40px;
+}
+
+#exemplo{
+	width:200px;
+	height:200px;
+	border:10px solid transparent;
+}
+#line {
+	color:rgba(190,190,190,0.5);
+	background-color:rgba(190,190,190,0.5);
+  }
+/*fim da pagina principal*/
+
+
+/*comeco do rodape*/
+footer{
+	background-color:rgb(210,210,210);
+	min-height:35px;
+	padding-bottom:0.1px;
+}
+#copyright{
+	text-align:center;
+	color:rgb(30,30,30);
+	font-size:13;
+}
+#footerdown{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+/*fim do rodape*/

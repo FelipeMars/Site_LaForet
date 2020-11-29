@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*comeco do cabecalho*/
+header{
+	min-height: 0px;
+	width:100%;
+	background-color:rgb(235,235,235);
+	text-align:center;
+}
+#logo{
+	padding-top:5px;
+	height:100px;
+}
+/*fim do cabecalho*/
+
+/*comeco da pagina principal*/
+h1{
+	font-size: 20px;
+	text-align: left;
+}
+#credito{
+	font-size: 15px;
+	font-style: italic;
+}
+#div_De_Separacao{
+	display:flex;
+	width:100%;
+	max-height:auto;
+	padding-left:8%;
+	padding-right:10%;
+}
+section{
+	width:65%;
+	padding-left:10px;
+	padding-right:15px;
+}
+#conteudo{
+	font-size: 20px;
+	text-align: justify;
+	color:rgb(60,60,60)
+}
+#img_principal{
+	width: 100%;
+	height: auto;
+}
+aside{
+	padding-top: 20px;
+	padding-left: 20px;
+	width:35%;
+}
+#title_aside{
+	font-size:25px;
+	font-style: oblique;
+	color: rgb(50,50,50);
+}
+.sugestoeslink{
+	text-align:justify;
+	padding:20px;
+	padding-top:40px;
+	width:50%;
+}
+.imgSugestoes{
+	width:50%;
+	height:auto;
+}
+.divDeDentroSugestoes{
+	display:flex;
+	color:rgb(30,30,30);
+	text-align: left;
+}
+#referencias{
+	border: 0.5px solid black;
+}
+#referencias_title{
+	font-style: oblique;
+}
+/*fim da pagina principal*/
+
+/*comeco do rodape*/
+footer{
+	background-color:rgb(210,210,210);
+	min-height:35px;
+	padding-bottom:0.1px;
+}
+#copyright{
+	text-align:center;
+	color:rgb(30,30,30);
+	font-size:13;
+}
+#footerdown{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+/*fim do rodape*/
