@@ -11,7 +11,9 @@
 </ul>
 <hr>
 <p><strong>Apresentação do Site:</strong></p>
-<p>O site pode ser acessado clicando <a href="https://laforetsustentabilidade.000webhostapp.com/index.html">aqui</a>.</p>
+<p>O site pode ser acessado clicando <a href="https://laforetsustentabilidade.000webhostapp.com/index.html" target="_blank">aqui</a>.</p>
 <hr>
 <p>Linguagens utilizadas: HTML e CSS</p>
 <p>Framework utilizada: Bootstrap</p>
+<hr>
+<p align="center"><a href="https://github.com/FelipeMars/Site_LaForet/blob/master/LICENSE" target="_blank">MIT License</a></p>
